@@ -1,6 +1,6 @@
 # decision_tree_CART_heart_disease
 # Rumusan masalah
-# Bagaimana memprediksi serangan jantung berdasarkan:                                           
+Bagaimana memprediksi serangan jantung berdasarkan:                                           
  1   sex                                             1025 non-null   int64  
  2   Chest Pain Type (CP)                            1025 non-null   int64  
  3   Resting Blood Pressure (trestbps)               1025 non-null   int64  
