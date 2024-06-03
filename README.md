@@ -18,7 +18,8 @@
 # tujuan
 memprediksi serangan jantung menggunakan decision tree
 
-#algoritma CART
+#algoritma 
+CART
 d = 0, endtree = 0 
 Catatan(0) = 1, Node(1) = 0, Node(2) = 0 
 sedangkan endtree < 1 
