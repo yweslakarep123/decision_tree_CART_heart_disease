@@ -1,19 +1,20 @@
 # decision_tree_CART_heart_disease
 # Rumusan masalah
 Bagaimana memprediksi serangan jantung berdasarkan:                                           
- 1   sex                                             1025 non-null   int64  
- 2   Chest Pain Type (CP)                            1025 non-null   int64  
- 3   Resting Blood Pressure (trestbps)               1025 non-null   int64  
- 4   Serum Cholestoral (chol) mg/dl                  1025 non-null   int64  
- 5   Fasting Blood Sugar (fbs) > 120 mg/dl           1025 non-null   int64  
- 6   Resting Electrocardiographic Results (restecg)  1025 non-null   int64  
- 7   Maximum Heart Rate Achieved (thalach)           1025 non-null   int64  
- 8   Exercise Induced Angina (exang)                 1025 non-null   int64  
- 9   ST depression (oldpeak)                         1025 non-null   float64
- 10  Slope of the ST Segment (slope)                 1025 non-null   int64  
- 11  Number of Major Vessels (ca)                    1025 non-null   int64  
- 12  Thal                                            1025 non-null   int64  
- 13  target                                          1025 non-null   int64  
+1. age
+2. sex
+3. chest pain type (4 values)
+4. resting blood pressure
+5. serum cholestoral in mg/dl
+6. fasting blood sugar > 120 mg/dl
+7. resting electrocardiographic results (values 0,1,2)
+8. maximum heart rate achieved
+9. exercise induced angina
+10. oldpeak = ST depression induced by exercise relative to rest
+11. the slope of the peak exercise ST segment
+12. number of major vessels (0-3) colored by flourosopy
+13. thal: 0 = normal; 1 = fixed defect; 2 = reversable defect
+The names and social security numbers of the patients were recently removed from the database, replaced with dummy values.                                         
 
 # tujuan
 memprediksi serangan jantung menggunakan decision tree
