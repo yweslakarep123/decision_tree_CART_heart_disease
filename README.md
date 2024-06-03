@@ -17,3 +17,22 @@
 
 # tujuan
 memprediksi serangan jantung menggunakan decision tree
+
+#algoritma CART
+d = 0, endtree = 0 
+Catatan(0) = 1, Node(1) = 0, Node(2) = 0 
+sedangkan endtree < 1 
+    jika Node(2 d -1) + Node(2 d ) + .... + Node(2 d+1 -2) = 2 - 2 d+1   
+         endtree = 1 
+    else 
+        do i = 2 d -1, 2 d , .... , 2 d+1 -2 
+            if Node(i) > - 1 
+                Pisahkan pohon 
+            else 
+                Node(2i+1) = -1 
+                Node(2i+2) = -1 
+            end if 
+        end do 
+    end if 
+d = d + 1 
+end while
